@@ -134,7 +134,7 @@ mediaTypes:
 # Sitemap config
 sitemap:
   changefreq: weekly
-  filename: https://www.mujbasnickyblog.com/sitemap.xml
+  filename: sitemap.xml
   priority: 0.5
 
 author:
@@ -155,7 +155,7 @@ markup:
         block: true
 
 # If enableGitInfo is true, it will override any lastmod dates in our
-# front matter. We should at least allow ourselves to manually override
+# front matter. We ohould at least allow ourselves to manually override
 # this value in the front matter.
 frontmatter:
   lastmod:
