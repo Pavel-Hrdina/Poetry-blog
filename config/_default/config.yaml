@@ -134,7 +134,7 @@ mediaTypes:
 # Sitemap config
 sitemap:
   changefreq: weekly
-  filename: sitemap.xml
+  filename: https://www.mujbasnickyblog.com/sitemap.xml
   priority: 0.5
 
 author:
