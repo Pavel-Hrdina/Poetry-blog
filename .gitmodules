@@ -1,0 +1,3 @@
+[submodule "gohugo-theme-ed"]
+	path = gohugo-theme-ed
+	url = https://github.com/sergeyklay/gohugo-theme-ed.git
