@@ -1,0 +1,74 @@
+[home]
+  other = 'Domov'
+
+[more]
+  other = 'Přečíst více...'
+
+[published_on]
+  other = 'Vydáno'
+
+[updated_on]
+  other = 'Aktualizováno'
+
+[latest_publications]
+  other = 'Nejnovější publikace'
+
+[your_name]
+  other = 'Tvoje jméno'
+
+[email_address]
+  other = 'E-mailová adresa'
+
+[message]
+  other = 'Zpráva'
+
+[edited_by]
+  other = 'Upravil {{ . }}'
+
+[404_title]
+  other = 'Stránka nenalezena'
+
+[404_description]
+  other = "Omlouváme se, adresu URL jsme špatně umístili nebo odkazuje na něco, co neexistuje."
+
+[404_back]
+  other = 'Vrať se spátky a zkus to znovu'
+
+[by]
+  other = 'napsal {{ . }}'
+
+[send]
+  other = 'Odeslat'
+
+[all_publications]
+  other = 'Všechny publikace'
+
+[publications_tagged]
+  other = 'Publikace označené štítkem "{{ . }}"'
+
+[table_of_contents]
+  other = 'Obsah'
+
+[search_help]
+  other = "Chcete-li na webu vyhledávat, zadejte hledaný výraz."
+
+[search_site]
+  other = 'Proheldat web'
+
+[search_no_results]
+  other = 'Žádné výsledky nenalezeny'
+
+[search_results]
+  other = 'Nalezené výsledky:'
+
+[tag_cloud]
+  other = 'Štítek Cloud'
+
+[back_to_top]
+  other = 'Spátky na horu'
+
+[back_to_top_label]
+  other = 'Zpět na začátek stránky'
+
+[annotate]
+  other = 'Anotujte mě'

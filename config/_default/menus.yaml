@@ -1,18 +1,18 @@
 # For more see https://gohugo.io/content-management/menus/
 
 main: # sections in the website sidebar
-  - identifier: home # section id
-    name: Home # section display title
+  - identifier: domov # section id
+    name: Domov # section display title
     url: / # path to the section
     weight: 1 # order of sections
 
-  - identifier: about
-    name: About
+  - identifier: o-webu
+    name: O-Webu
     url: /about/
     weight: 2
 
-  - identifier: contact
-    name: Contact
+  - identifier: kntak
+    name: Kontatk
     url: /contact/
     weight: 6
 
