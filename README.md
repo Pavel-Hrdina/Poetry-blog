@@ -11,12 +11,9 @@ Here is all my work that I have created over the last three years. Creating poet
 
 - Additional browser support
 
-- Add more integrations
-
-
 ## Feedback
 
-If you have any feedback, please reach out to us at fake@fake.com
+If you have any feedback, please reach out to me at pavelhrdinajr@proton.me
 
 ## License
 
