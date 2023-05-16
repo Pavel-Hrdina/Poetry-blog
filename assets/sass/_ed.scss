@@ -57,7 +57,6 @@ body {
   margin-bottom: 4rem;
 }
 
-
 /*
   Wrapper
 
@@ -70,7 +69,6 @@ body {
   width: 100%;
 }
 
-
 /*
   Container
 
@@ -79,9 +77,9 @@ body {
 
 .container {
   max-width: 32rem;
-  padding-left:  1rem;
+  padding-left: 1rem;
   padding-right: 1rem;
-  margin-left:  auto;
+  margin-left: auto;
   margin-right: auto;
 }
 
@@ -92,7 +90,8 @@ body {
 }
 
 /* Links */
-a, .text-title a {
+a,
+.text-title a {
   color: $link-color;
   text-decoration: none;
 }
@@ -104,12 +103,15 @@ a:focus {
 }
 
 /* Headings */
-h1, h4, h5, h6 {
+h1,
+h4,
+h5,
+h6 {
   font-family: $heading-font;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
   font-weight: normal;
   color: $heading-color;
-  letter-spacing: -.025rem;
+  letter-spacing: -0.025rem;
   line-height: 1.25;
   text-rendering: optimizeLegibility;
 }
@@ -127,7 +129,10 @@ h2 {
   font-family: $main-font;
 }
 
-h3, h4, h5, h6 {
+h3,
+h4,
+h5,
+h6 {
   margin-top: 1rem;
   font-size: 1rem;
 }
@@ -135,7 +140,6 @@ h3, h4, h5, h6 {
 h3 {
   margin-top: 1.5rem;
 }
-
 
 /* Body text */
 p {
@@ -148,7 +152,8 @@ ul {
   list-style: circle;
 }
 
-ul, ol {
+ul,
+ol {
   margin-top: 0;
   margin-bottom: 1rem;
 }
@@ -206,7 +211,7 @@ table {
 
 td,
 th {
-  padding: .25rem .5rem;
+  padding: 0.25rem 0.5rem;
   border: 1px solid #e5e5e5;
 }
 
@@ -214,7 +219,6 @@ tbody tr:nth-child(odd) td,
 tbody tr:nth-child(odd) th {
   background-color: #f9f9f9;
 }
-
 
 /*
   Masthead
@@ -234,7 +238,7 @@ tbody tr:nth-child(odd) th {
   color: #505050;
   font-family: $main-font;
   font-size: 1.8rem;
-  line-height: .777em;
+  line-height: 0.777em;
   margin: 2em 0 0;
   text-align: center;
 }
@@ -243,9 +247,9 @@ tbody tr:nth-child(odd) th {
   color: $text-color;
   display: none; /* This is an accessibility no-no */
   font-family: $heading-font;
-  font-size: .88rem;
+  font-size: 0.88rem;
   font-weight: normal;
-  letter-spacing: .05rem;
+  letter-spacing: 0.05rem;
 }
 
 @media (min-width: 320px) {
@@ -286,15 +290,15 @@ tbody tr:nth-child(odd) th {
   visibility: hidden;
   overflow-y: auto;
   font-family: $main-font sans-serif;
-  font-size: .875rem;/* 15px*/
-  color: rgba(255,255,255,.6);
+  font-size: 0.875rem; /* 15px*/
+  color: rgba(255, 255, 255, 0.6);
   background-color: #202020;
-  @include transition(all .3s ease-in-out);
+  @include transition(all 0.3s ease-in-out);
 }
 
 @media (min-width: 30em) {
   .sidebar {
-    font-size: .75rem;/* 14px */
+    font-size: 0.75rem; /* 14px */
   }
 }
 
@@ -318,24 +322,24 @@ tbody tr:nth-child(odd) th {
 
 /* Sidebar nav */
 .sidebar-nav {
-  border-bottom: 1px solid rgba(255,255,255,.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .sidebar-nav-item {
   display: block;
-  padding: .5rem 1rem;
-  border-top: 1px solid rgba(255,255,255,.1);
+  padding: 0.5rem 1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 a.sidebar-nav-item-toc {
-  color: rgba(255,255,255,.8);
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .sidebar-nav-item.active,
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
   text-decoration: none;
-  background-color: rgba(255,255,255,.1);
+  background-color: rgba(255, 255, 255, 0.1);
   border-color: transparent;
 }
 
@@ -345,7 +349,7 @@ a.sidebar-nav-item:focus {
   }
 
   .sidebar-nav-item {
-    padding-left:  1.5rem;
+    padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
 }
@@ -358,25 +362,73 @@ a.sidebar-nav-item:focus {
 /* Style the `label` that we use to target the `.sidebar-checkbox` */
 .sidebar-toggle {
   position: absolute;
-  top:  .8rem;
+  top: 0.8rem;
   left: 1rem;
   display: block;
-  padding: .25rem .75rem;
+  padding: 0.25rem 0.75rem;
   color: #505050;
   background-color: #fff;
-  border-radius: .25rem;
+  border-radius: 0.25rem;
   cursor: pointer;
 }
 
 .sidebar-toggle:before {
   display: inline-block;
   width: 1rem;
-  height: .75rem;
+  height: 0.75rem;
   content: "";
-  background-image: -webkit-linear-gradient(to bottom, #96858d, #96858d 20%, #fff 20%, #fff 40%, #96858d 40%, #96858d 60%, #fff 60%, #fff 80%, #96858d 80%, #96858d 100%);
-  background-image:    -moz-linear-gradient(to bottom, #96858d, #96858d 20%, #fff 20%, #fff 40%, #96858d 40%, #96858d 60%, #fff 60%, #fff 80%, #96858d 80%, #96858d 100%);
-  background-image:     -ms-linear-gradient(to bottom, #96858d, #96858d 20%, #fff 20%, #fff 40%, #96858d 40%, #96858d 60%, #fff 60%, #fff 80%, #96858d 80%, #96858d 100%);
-  background-image:         linear-gradient(to bottom, #96858d, #96858d 20%, #fff 20%, #fff 40%, #96858d 40%, #96858d 60%, #fff 60%, #fff 80%, #96858d 80%, #96858d 100%);
+  background-image: -webkit-linear-gradient(
+    to bottom,
+    #96858d,
+    #96858d 20%,
+    #fff 20%,
+    #fff 40%,
+    #96858d 40%,
+    #96858d 60%,
+    #fff 60%,
+    #fff 80%,
+    #96858d 80%,
+    #96858d 100%
+  );
+  background-image: -moz-linear-gradient(
+    to bottom,
+    #96858d,
+    #96858d 20%,
+    #fff 20%,
+    #fff 40%,
+    #96858d 40%,
+    #96858d 60%,
+    #fff 60%,
+    #fff 80%,
+    #96858d 80%,
+    #96858d 100%
+  );
+  background-image: -ms-linear-gradient(
+    to bottom,
+    #96858d,
+    #96858d 20%,
+    #fff 20%,
+    #fff 40%,
+    #96858d 40%,
+    #96858d 60%,
+    #fff 60%,
+    #fff 80%,
+    #96858d 80%,
+    #96858d 100%
+  );
+  background-image: linear-gradient(
+    to bottom,
+    #96858d,
+    #96858d 20%,
+    #fff 20%,
+    #fff 40%,
+    #96858d 40%,
+    #96858d 60%,
+    #fff 60%,
+    #fff 80%,
+    #96858d 80%,
+    #96858d 100%
+  );
 }
 
 .sidebar-toggle:active,
@@ -389,10 +441,58 @@ a.sidebar-nav-item:focus {
 .sidebar-toggle:active:before,
 #sidebar-checkbox:focus ~ .sidebar-toggle:before,
 #sidebar-checkbox:checked ~ .sidebar-toggle:before {
-  background-image: -webkit-linear-gradient(to bottom, #fff, #fff 20%, #96858d 20%, #96858d 40%, #fff 40%, #fff 60%, #96858d 60%, #96858d 80%, #fff 80%, #fff 100%);
-  background-image:    -moz-linear-gradient(to bottom, #fff, #fff 20%, #96858d 20%, #96858d 40%, #fff 40%, #fff 60%, #96858d 60%, #96858d 80%, #fff 80%, #fff 100%);
-  background-image:     -ms-linear-gradient(to bottom, #fff, #fff 20%, #96858d 20%, #96858d 40%, #fff 40%, #fff 60%, #96858d 60%, #96858d 80%, #fff 80%, #fff 100%);
-  background-image:         linear-gradient(to bottom, #fff, #fff 20%, #96858d 20%, #96858d 40%, #fff 40%, #fff 60%, #96858d 60%, #96858d 80%, #fff 80%, #fff 100%);
+  background-image: -webkit-linear-gradient(
+    to bottom,
+    #fff,
+    #fff 20%,
+    #96858d 20%,
+    #96858d 40%,
+    #fff 40%,
+    #fff 60%,
+    #96858d 60%,
+    #96858d 80%,
+    #fff 80%,
+    #fff 100%
+  );
+  background-image: -moz-linear-gradient(
+    to bottom,
+    #fff,
+    #fff 20%,
+    #96858d 20%,
+    #96858d 40%,
+    #fff 40%,
+    #fff 60%,
+    #96858d 60%,
+    #96858d 80%,
+    #fff 80%,
+    #fff 100%
+  );
+  background-image: -ms-linear-gradient(
+    to bottom,
+    #fff,
+    #fff 20%,
+    #96858d 20%,
+    #96858d 40%,
+    #fff 40%,
+    #fff 60%,
+    #96858d 60%,
+    #96858d 80%,
+    #fff 80%,
+    #fff 100%
+  );
+  background-image: linear-gradient(
+    to bottom,
+    #fff,
+    #fff 20%,
+    #96858d 20%,
+    #96858d 40%,
+    #fff 40%,
+    #fff 60%,
+    #96858d 60%,
+    #96858d 80%,
+    #fff 80%,
+    #fff 100%
+  );
 }
 
 @media (min-width: 30.1em) {
@@ -406,7 +506,6 @@ a.sidebar-nav-item:focus {
     display: none;
   }
 }
-
 
 /*
   Slide effect
@@ -425,14 +524,14 @@ a.sidebar-nav-item:focus {
 .sidebar,
 .sidebar-toggle {
   -webkit-backface-visibility: hidden;
-      -ms-backface-visibility: hidden;
-          backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 
 .wrap,
 .sidebar-toggle {
-  -webkit-transition: -webkit-transform .3s ease-in-out;
-          transition: transform .3s ease-in-out;
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
 }
 
 #sidebar-checkbox:checked + .sidebar {
@@ -445,7 +544,6 @@ a.sidebar-nav-item:focus {
 #sidebar-checkbox:checked ~ .sidebar-toggle {
   @include transform(translateX(14rem));
 }
-
 
 /*
   Reverse layout
@@ -469,7 +567,6 @@ a.sidebar-nav-item:focus {
   @include transform(translateX(-14rem));
 }
 
-
 /*
   Overlay sidebar
 
@@ -481,41 +578,40 @@ a.sidebar-nav-item:focus {
 }
 
 .sidebar-overlay #sidebar-checkbox:checked ~ .sidebar-toggle {
-  box-shadow: 0 0 0 .25rem #fff;
+  box-shadow: 0 0 0 0.25rem #fff;
 }
 
 .sidebar-overlay #sidebar-checkbox:checked ~ .sidebar {
-  box-shadow: .25rem 0 .5rem rgba(0,0,0,.1);
+  box-shadow: 0.25rem 0 0.5rem rgba(0, 0, 0, 0.1);
 }
 
 /* Only one tweak for a reverse layout*/
 .layout-reverse.sidebar-overlay #sidebar-checkbox:checked ~ .sidebar {
-  box-shadow: -.25rem 0 .5rem rgba(0,0,0,.1);
+  box-shadow: -0.25rem 0 0.5rem rgba(0, 0, 0, 0.1);
 }
-
 
 /*
   ED special layouts
 */
 
 .text-center {
-  text-align: center!important;
+  text-align: center !important;
 }
 
 .text-uppercase {
-  text-transform: uppercase!important;
+  text-transform: uppercase !important;
 }
 
 .fs-4 {
-  font-size: 1.6rem!important;
+  font-size: 1.6rem !important;
 }
 
 .fs-5 {
-  font-size: 1.4rem!important;
+  font-size: 1.4rem !important;
 }
 
 .fs-7 {
-  font-size: 0.8rem!important;
+  font-size: 0.8rem !important;
 }
 
 div.poem,
@@ -528,7 +624,6 @@ div.narrative,
 div.toc {
   margin-bottom: 4rem;
 }
-
 
 /*
   Poem styles
@@ -546,13 +641,11 @@ ul.poetry {
   text-indent: -1rem;
 }
 
-
 /* This snippet helps us reset the margin for all spans with the indent- class */
-.poem span[class^='indent-'],
-.poetry span[class^='indent-'] {
-  margin: 0;/* reset browsers default margin styles*/
+.poem span[class^="indent-"],
+.poetry span[class^="indent-"] {
+  margin: 0; /* reset browsers default margin styles*/
 }
-
 
 /*
   To set line indentation for poetry wrap the line in a span with a class="indent-x" attribute.
@@ -604,7 +697,7 @@ ul.poetry {
   font-style: italic;
   font-weight: normal;
   letter-spacing: 0;
-  margin-top: -.5rem;
+  margin-top: -0.5rem;
 }
 
 /* Footnotes styles */
@@ -623,24 +716,24 @@ sup {
 .footnotes {
   line-height: 1.2rem;
   font-size: 0.9rem;
-  letter-spacing: .01rem;
+  letter-spacing: 0.01rem;
 }
 
 .footnotes .foot-block {
   display: inline-block;
   padding: 0 4rem 0 2rem;
-  margin-bottom: .8rem;
+  margin-bottom: 0.8rem;
   font-style: italic;
 }
 
 a.footnote-ref {
-  padding-left: .1rem;
-  font-size: .66rem;
+  padding-left: 0.1rem;
+  font-size: 0.66rem;
 }
 
 /* Bibliography styles */
 ol.bibliography {
-  list-style-type:none;
+  list-style-type: none;
   padding-left: 1rem;
   text-indent: -1rem;
 }
@@ -648,21 +741,20 @@ ol.bibliography {
 /* Diplomatic editions */
 ins,
 .add {
-  color:#288828;
+  color: #288828;
   font-style: italic;
 }
 
 del,
 .delete {
   text-decoration: line-through;
-  color: #AA3232;
+  color: #aa3232;
 }
 
 u,
 .underline {
   text-decoration: underline;
 }
-
 
 /*
   Line layouts for prose-poetry and theater
@@ -699,7 +791,6 @@ li.prose {
 li.prose-indent {
   text-indent: 2rem;
 }
-
 
 /*
   Themes
