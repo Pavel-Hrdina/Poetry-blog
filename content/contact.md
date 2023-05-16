@@ -1,5 +1,5 @@
 ---
-title: Contact
+title: Kontakt
 description: Rád od vás uslyším!
 semanticType: contact
 annotations: false
