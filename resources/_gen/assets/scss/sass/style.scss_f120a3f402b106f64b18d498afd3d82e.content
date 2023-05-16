@@ -9,11 +9,13 @@
 */
 @font-face {
   font-family: "TundraWebPro-Demibold-W01-Rg";
-  src: url("/fonts/1468523/4818d72a-752a-456a-9600-cce00caf6b54.woff2") format("woff2"), url("/fonts/1468523/847ead84-442c-4687-a225-72edf7ddf17c.woff") format("woff"); }
+  src: url("/fonts/1468523/4818d72a-752a-456a-9600-cce00caf6b54.woff2") format("woff2"), url("/fonts/1468523/847ead84-442c-4687-a225-72edf7ddf17c.woff") format("woff");
+  font-display: swap; }
 
 @font-face {
   font-family: "TundraWeb-W01-Regular";
-  src: url("/fonts/1468559/79a3e616-8931-4235-b8dc-0f9718329786.woff2") format("woff2"), url("/fonts/1468559/98d8ab99-1bd9-4469-8ed9-e5bb30485dce.woff") format("woff"); }
+  src: url("/fonts/1468559/79a3e616-8931-4235-b8dc-0f9718329786.woff2") format("woff2"), url("/fonts/1468559/98d8ab99-1bd9-4469-8ed9-e5bb30485dce.woff") format("woff");
+  font-display: swap; }
 
 /* 20px / 16px = 1.25em; support text resizing in all browsers */
 /*
@@ -101,7 +103,8 @@ body {
     max-width: 38rem; } }
 
 /* Links */
-a, .text-title a {
+a,
+.text-title a {
   color: #841212;
   text-decoration: none; }
 
@@ -111,12 +114,15 @@ a:focus {
   text-decoration: underline; }
 
 /* Headings */
-h1, h4, h5, h6 {
+h1,
+h4,
+h5,
+h6 {
   font-family: "TundraWebPro-Demibold-W01-Rg", sans-serif;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
   font-weight: normal;
   color: #404040;
-  letter-spacing: -.025rem;
+  letter-spacing: -0.025rem;
   line-height: 1.25;
   text-rendering: optimizeLegibility; }
 
@@ -131,7 +137,10 @@ h2 {
   font-size: 1.2rem;
   font-family: "TundraWeb-W01-Regular", serif; }
 
-h3, h4, h5, h6 {
+h3,
+h4,
+h5,
+h6 {
   margin-top: 1rem;
   font-size: 1rem; }
 
@@ -147,7 +156,8 @@ p {
 ul {
   list-style: circle; }
 
-ul, ol {
+ul,
+ol {
   margin-top: 0;
   margin-bottom: 1rem; }
 
@@ -196,7 +206,7 @@ table {
 
 td,
 th {
-  padding: .25rem .5rem;
+  padding: 0.25rem 0.5rem;
   border: 1px solid #e5e5e5; }
 
 tbody tr:nth-child(odd) td,
@@ -219,7 +229,7 @@ tbody tr:nth-child(odd) th {
   color: #505050;
   font-family: "TundraWeb-W01-Regular", serif;
   font-size: 1.8rem;
-  line-height: .777em;
+  line-height: 1.111em;
   margin: 2em 0 0;
   text-align: center; }
 
@@ -228,9 +238,9 @@ tbody tr:nth-child(odd) th {
   display: none;
   /* This is an accessibility no-no */
   font-family: "TundraWebPro-Demibold-W01-Rg", sans-serif;
-  font-size: .88rem;
+  font-size: 0.88rem;
   font-weight: normal;
-  letter-spacing: .05rem; }
+  letter-spacing: 0.05rem; }
 
 @media (min-width: 320px) {
   .masthead-title {
@@ -265,7 +275,7 @@ tbody tr:nth-child(odd) th {
   visibility: hidden;
   overflow-y: auto;
   font-family: "TundraWeb-W01-Regular", serif sans-serif;
-  font-size: .875rem;
+  font-size: 0.875rem;
   /* 15px*/
   color: rgba(255, 255, 255, 0.6);
   background-color: #202020;
@@ -277,7 +287,7 @@ tbody tr:nth-child(odd) th {
 
 @media (min-width: 30em) {
   .sidebar {
-    font-size: .75rem;
+    font-size: 0.75rem;
     /* 14px */ } }
 
 /* Sidebar content */
@@ -300,7 +310,7 @@ tbody tr:nth-child(odd) th {
 
 .sidebar-nav-item {
   display: block;
-  padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
   border-top: 1px solid rgba(255, 255, 255, 0.1); }
 
 a.sidebar-nav-item-toc {
@@ -327,19 +337,19 @@ a.sidebar-nav-item:focus {
 /* Style the `label` that we use to target the `.sidebar-checkbox` */
 .sidebar-toggle {
   position: absolute;
-  top: .8rem;
+  top: 0.8rem;
   left: 1rem;
   display: block;
-  padding: .25rem .75rem;
+  padding: 0.25rem 0.75rem;
   color: #505050;
   background-color: #fff;
-  border-radius: .25rem;
+  border-radius: 0.25rem;
   cursor: pointer; }
 
 .sidebar-toggle:before {
   display: inline-block;
   width: 1rem;
-  height: .75rem;
+  height: 0.75rem;
   content: "";
   background-image: -webkit-linear-gradient(to bottom, #96858d, #96858d 20%, #fff 20%, #fff 40%, #96858d 40%, #96858d 60%, #fff 60%, #fff 80%, #96858d 80%, #96858d 100%);
   background-image: -moz-linear-gradient(to bottom, #96858d, #96858d 20%, #fff 20%, #fff 40%, #96858d 40%, #96858d 60%, #fff 60%, #fff 80%, #96858d 80%, #96858d 100%);
@@ -389,8 +399,8 @@ a.sidebar-nav-item:focus {
 
 .wrap,
 .sidebar-toggle {
-  -webkit-transition: -webkit-transform .3s ease-in-out;
-  transition: transform .3s ease-in-out; }
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out; }
 
 #sidebar-checkbox:checked + .sidebar {
   z-index: 10;
@@ -440,7 +450,7 @@ a.sidebar-nav-item:focus {
   transform: translateX(0); }
 
 .sidebar-overlay #sidebar-checkbox:checked ~ .sidebar-toggle {
-  box-shadow: 0 0 0 .25rem #fff; }
+  box-shadow: 0 0 0 0.25rem #fff; }
 
 .sidebar-overlay #sidebar-checkbox:checked ~ .sidebar {
   box-shadow: 0.25rem 0 0.5rem rgba(0, 0, 0, 0.1); }
@@ -491,8 +501,8 @@ ul.poetry {
   text-indent: -1rem; }
 
 /* This snippet helps us reset the margin for all spans with the indent- class */
-.poem span[class^='indent-'],
-.poetry span[class^='indent-'] {
+.poem span[class^="indent-"],
+.poetry span[class^="indent-"] {
   margin: 0;
   /* reset browsers default margin styles*/ }
 
@@ -535,7 +545,7 @@ ul.poetry {
   font-style: italic;
   font-weight: normal;
   letter-spacing: 0;
-  margin-top: -.5rem; }
+  margin-top: -0.5rem; }
 
 /* Footnotes styles */
 sub,
@@ -551,17 +561,17 @@ sup {
 .footnotes {
   line-height: 1.2rem;
   font-size: 0.9rem;
-  letter-spacing: .01rem; }
+  letter-spacing: 0.01rem; }
 
 .footnotes .foot-block {
   display: inline-block;
   padding: 0 4rem 0 2rem;
-  margin-bottom: .8rem;
+  margin-bottom: 0.8rem;
   font-style: italic; }
 
 a.footnote-ref {
-  padding-left: .1rem;
-  font-size: .66rem; }
+  padding-left: 0.1rem;
+  font-size: 0.66rem; }
 
 /* Bibliography styles */
 ol.bibliography {
@@ -578,7 +588,7 @@ ins,
 del,
 .delete {
   text-decoration: line-through;
-  color: #AA3232; }
+  color: #aa3232; }
 
 u,
 .underline {
