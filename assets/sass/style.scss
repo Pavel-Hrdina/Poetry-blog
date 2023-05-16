@@ -9,19 +9,26 @@
         This CSS resource incorporates links to font software which is the valuable copyrighted property of Monotype and/or its suppliers. You may not attempt to copy, install, redistribute, convert, modify or reverse engineer this font software. Please contact Monotype with any questions regarding Web Fonts:  http://www.fontshop.com
 */
 
-@font-face{
-  font-family:"TundraWebPro-Demibold-W01-Rg";
-  src:url("/fonts/1468523/4818d72a-752a-456a-9600-cce00caf6b54.woff2") format("woff2"),url("/fonts/1468523/847ead84-442c-4687-a225-72edf7ddf17c.woff") format("woff");
+@font-face {
+  font-family: "TundraWebPro-Demibold-W01-Rg";
+  src: url("/fonts/1468523/4818d72a-752a-456a-9600-cce00caf6b54.woff2")
+      format("woff2"),
+    url("/fonts/1468523/847ead84-442c-4687-a225-72edf7ddf17c.woff")
+      format("woff");
+  font-display: swap;
 }
-@font-face{
-  font-family:"TundraWeb-W01-Regular";
-  src:url("/fonts/1468559/79a3e616-8931-4235-b8dc-0f9718329786.woff2") format("woff2"),url("/fonts/1468559/98d8ab99-1bd9-4469-8ed9-e5bb30485dce.woff") format("woff");
+@font-face {
+  font-family: "TundraWeb-W01-Regular";
+  src: url("/fonts/1468559/79a3e616-8931-4235-b8dc-0f9718329786.woff2")
+      format("woff2"),
+    url("/fonts/1468559/98d8ab99-1bd9-4469-8ed9-e5bb30485dce.woff")
+      format("woff");
+  font-display: swap;
 }
 
-$main-font: 'TundraWeb-W01-Regular', serif;
-$heading-font: "TundraWebPro-Demibold-W01-Rg",  sans-serif;
+$main-font: "TundraWeb-W01-Regular", serif;
+$heading-font: "TundraWebPro-Demibold-W01-Rg", sans-serif;
 $regular-font-size: 1.25em; /* 20px / 16px = 1.25em; support text resizing in all browsers */
-
 
 /*
   Color
