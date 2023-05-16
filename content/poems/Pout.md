@@ -11,7 +11,7 @@ rights: '[CC-BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/)'
 
 - Od narození do narození,
 - plave řekou bez konce,
-- roudem utrpení bezmocně,
+- proudem utrpení bezmocně,
 - dokud nedojde štěstí.
 
 {.poetry}
