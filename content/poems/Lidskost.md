@@ -15,7 +15,7 @@ rights: '[CC-BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/)'
 - Život je plný krutosti.
 <!-- -->
 - Svět potřebuje více laskavosti a lásky.
-- Proč lidé, tak kutí více než dobří.
+- Proč lidé, tak krutí více než dobří.
 - Plní svá srdce nenávistí a bolestí .
 - Není třeba hledat míru v duši.
 <!-- -->
