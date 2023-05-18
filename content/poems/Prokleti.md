@@ -11,7 +11,7 @@ rights: '[CC-BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/)'
 
 - Bušící srdce otřásá mnou v oheň a žár.
 - Když oči vidí, jaký je život krása a dar,
-- Neb slunce svítí a láska má žílou protéká,
+- Neb slunce svítí a láska má žilou protéká,
 - Neb amor lásku mou rozžehnal.
 <!-- -->
 - Ach, pro tebe má lásko, můj poklade, 
