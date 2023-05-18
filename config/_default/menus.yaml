@@ -11,6 +11,11 @@ main: # sections in the website sidebar
     url: /about/
     weight: 2
 
+  - indetifier: publikace
+    name: Publikace
+    url: /publikace/
+    weight: 3
+
   - identifier: kntak
     name: Kontatk
     url: /contact/

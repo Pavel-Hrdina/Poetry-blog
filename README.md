@@ -2,7 +2,7 @@
 
 # My poetry blog
 
-My personal blog where I put all my poetry that I have created over the last few years.
+My personal [blog](www.mujbasnickyblog.com) where I put all my poetry that I have created over the last few years.
 
 Here is all my work that I have created over the last three years. Creating poetry helps me keep my sanity and I choose to share my thoughts and feelings with the world, even if it doesn't want them.
 
