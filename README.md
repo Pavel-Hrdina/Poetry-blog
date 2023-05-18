@@ -10,6 +10,7 @@ Here is all my work that I have created over the last three years. Creating poet
 ## Roadmap
 
 - Additional browser support
+- Multiple languages support
 
 ## Feedback
 
