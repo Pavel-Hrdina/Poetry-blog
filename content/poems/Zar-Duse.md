@@ -21,7 +21,7 @@ rights: '[CC-BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/)'
 <!-- -->
 - Hněv a závist už nejsou.
 - Pokud loďky klidu tělo přes práh přenesou.
-- Pícha a zášť mizí.
+- Pýcha a zášť mizí.
 - Neb duše probuzení se nabízí.
 
 {.poetry}
