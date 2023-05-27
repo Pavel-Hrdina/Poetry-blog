@@ -97,10 +97,10 @@ contact:
 # Site icons, relative to ./static
 assets:
   # favicon.ico for legacy browsers
-  favicon: ""
+  favicon: "favicon.ico"
 
   # A single SVG icon with a light/dark version for modern browsers
-  svgicon: ""
+  svgicon: "icon,svg"
 
   # 180×180 PNG image for Apple devices
   apple_touch_icon: "apple-touch-icon.png"
